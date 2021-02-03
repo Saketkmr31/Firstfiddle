@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<style>
+			.a{
+				background-color: #0000009c;
+				}
+
+			.mbl_logo{
+				display:none;
+			}
+
+			@media(max-width: 400px){
+				.mbl_logo{
+				display:block;
+					}
+				.desklogo{ 
+				display: none;
+				}
+				.a{
+				background-color: #ffc107;;
+				}
+				.navbar-dark .navbar-nav .nav-link {
+    			color: white;
+					}
+			}
+
+			.s{
+				padding-top: 20px;
+                text-transform: uppercase;
+                font-family: prague;
+                letter-spacing: 3px;            
+			}
+
+			.content{
+				line-height: 35px;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+			}
+
+			.mtop{
+				margin-top: 30px;
+                margin-bottom: 100px;
+			}
+
+			.btn{
+				color: #fff;
+                padding: 10px 20px;
+			}
+
+			a{
+				text-decoration: none;
+			}
+
+			
+
+			.borderbox{
+				border-style: solid;
+                border-width: thin;
+                border-color: #fbab29;
+			}
+
+			
+    		}
+    		strong{
+    			color: #fcb21b;
+    		}
+
+    		.mob-banner{
+    			display: none;
+    		}
+    		@media(max-width: 400px){
+    			.mob-banner{
+    				display: block;
+    			}
+    			.desk-banner{
+    				display: none!important;
+    			}
+    			.banner-margin {
+                    margin-top: 16%;
+                }
+                .img-title {
+                   margin-right: -54px;
+                   margin-top: -40px;
+               } 
+               .ourstory{
+               	font-size: 60px!important;
+               }      
+               .banner-content{
+               	margin-top: 15px;
+                line-height: 25px!important;
+               }     
+               .why{
+               	width: 409px!important;
+               }
+               .conmarg{
+			margin-left: 32px!important;
+		}
+    		}
+    		.brands{
+    			font-size: 80px;
+    		}
+    		.img-title{
+    			position: absolute;
+                color: #fff;
+                text-align: center;
+                left: 0;
+                right: 0;
+                top: 45%;
+                letter-spacing: 4px;
+                text-transform: uppercase;            
+    		}
+		    .banner-content{
+			    letter-spacing: 1px;
+                word-spacing: 2px;
+                line-height: 25px;
+                margin-left: 0.25rem!important;
+		}
+		    .text-justify{
+			    text-align: justify!important;
+		}
+		    .text-center{
+			    text-align: center!important;
+		}
+		    .ml-1{
+                margin-left: 2.25rem!important;
+                padding-top: 20px;
+                text-transform: uppercase;
+                font-family: prague;
+                letter-spacing: 3px; 
+                padding: 0px;
+        }
+        .why{
+        	background-image: url(https://www.firstfiddle.in/assets/images/gamebanner.jpg);
+            width: 100%;
+            padding-right: 0!important;
+            padding-left: 0!important;
+            margin-right: auto;
+            margin-left: auto;        
+        }
+        .mm1{
+				margin-top: 102px;
+				color: white;
+			}
+		.conmarg{
+			margin-left: 0px;
+		}
+		.bgimg{
+    			background-image: url(https://www.firstfiddle.in//assets/images/bannerabout.jpg);
+    			width: 100%;
+    			padding-right: 0!important;
+    			padding-left: 0!important;
+    			margin-right: auto;
+    			margin-left: auto;
+    			background-size: cover;
+    		}
+    		.foot-add{
+    			padding: 15px;
+    		}
+
+    		.footer{
+    			background: #020306f0;
+                padding: 50px;
+                color: #fff;
+    		}
+    		.border1{
+    			border: 0px solid;
+    		}
+    		strong{
+    			color: #fcb21b;
+    		}
+    		@media(max-width: 400px){
+				.cardimg{
+					width: 100%;
+				}
+				.flogo{
+					width: 145px;
+					height: 145px;
+				}
+				.contactwidth{
+					width: 416px!important;
+
+				}
+				.licwidth{
+					width: 416px!important;
+				}
+			}
+			.contactwidth{
+				width: 100%;
+			}
+			.card2{
+				margin: 30px; 
+				padding: 5px
+			}
+
+
+
+
+	</style>
+</head>
+<body>
+
+<!--------------------- Section Start Navbar ------------>
+<section>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top a"><!--------nav start--------------->
+
+	<div class="container">
+		<a href="" class="navbar-brand">
+			<img class="desklogo" src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" style="width: 65px;">
+			<img class= "mbl_logo" src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png">
+
+      	</a>  
+
+
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+    	</button>
+
+		<div class="collapse navbar-collapse" id="a">
+		 	<ul class="navbar-nav ml-auto text-center" >
+			<li class="nav-item">
+				<a href="" class="nav-link">HOME</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">ABOUT</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">BRANDS</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">OUR TEAM</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">PRESS RELEASE</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">CONTACT</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">CAREERS</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link borderbox">FRANCHISE</a>
+			</li>
+			
+		  </ul> 
+		</div>
+	</div>
+		 
+    </nav><!--------------------nav end----------------------->
+</section>
+<!-------------Section End navbar--------------------------->
+
+<!------------------banner section start--------------------------->
+<section>
+	<div class="box">
+		<img class="desk-banner d-block w-100 banner-margin" src="https://www.firstfiddle.in/assets/images/brands.jpg">
+		<img class="mob-banner" src="https://www.firstfiddle.in/assets/images/brands-mob.png">
+		<div class="img-title">
+			<h1 class="brands">BRANDS</h1>
+		</div>
+	</div>
+</section>
+<!-----------------banner section end--------------------------------->
+<!------------section Explore our brands start------------------------->
+<section>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-resize-04-700x466.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-resize-07-700x466.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-700x466.png">
+				    </div>
+				</div>
+			</div>
+			<!--------next row--------------------------------->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/Untitled-design-min.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-resize-02-700x466.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-02.jpg">
+				    </div>
+				</div>
+			</div>
+			<!-------------next row------------------------>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-resize-06-700x466.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-resize-03-1-700x466.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2" >
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-resize-03-700x466.jpg">
+				    </div>
+				</div>
+			</div>
+			<!----------------------------------next row---------->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-resize-02-1-700x466.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/logo-resize-01-700x466.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/rpmlogo.jpg">
+				    </div>
+				</div>
+			</div>
+			<!--------------------------next row---------------------->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/daddy-logo.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/diablo.jpg">
+				    </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/miso.jpg">
+				    </div>
+				</div>
+			</div>
+			<!--------next row---------->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card text-center w-100 card2">
+					<img src="https://app.firstfiddle.in/images/logo_image/lies.jpg">
+				    </div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
+<!------------Section Explore our brands end------------------------->
+<!---------------------Costomer contact section start-------------------------->
+<section>
+	<div class="footer contactwidth" style="padding: 20px;">
+		<div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+		    <div class="container">
+			    <div class="row">
+				    <div class="col-md-5 col-sm-5">
+				    	<img class="flogo" src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" style="margin-top: 30px; margin-bottom: 30px;">
+				    </div>
+				    <div class="col-md-7 col-sm-7">
+				    	<b><h2 style="font-family: 'prague';font-size: 39px;line-height: 50px;letter-spacing: 3px;color: #fff;"><span style="color: #ffad00;">CONTACT </span>US</h2>
+				    	</b>
+				    	<p>We're a team focusing on redefining the way the hospitality industry works by bringing in concept based restaurants across india. We are truly committed to catering to the ever-changing cosmopolitan taste of the customer and revolutioning the F & B industry!</p>
+				    	<div class="border1">
+				    		<div class="row">
+				    			<div class="col-md-6 foot-add">
+				    				<p><strong> Address</strong><br>B6/22, 1st Floor, Safdarjung Enclave, New Delhi 110029, INDIA</p>
+				    			</div>
+				    			<div class="col-md-6 foot-add">
+				    				<strong>Franchise Enquiry</strong><br>Mobile: <a href=""><strong>+91 9313663486</a></strong><br>Email: <a href="#"><strong> franchise@firstfiddle.in</strong></a>
+				    			</div>
+				    		</div>
+				    		<div class="row">
+				    			<div class="col-md-6 foot-add">
+				    				<strong>HR Enquiry</strong><br>Mobile: <a href=""><strong>+91 9999796366</a></strong><br>Email: <a href="#"><strong>careers@firstfiddle.in</strong></a>
+				    			</div>
+				    			<div class="col-md-6 foot-add">
+				    				<strong>Other Enquiry</strong><br>Mobile: <a href=""><strong>01141187447</a></strong><br>Email: <a href="#"><strong>customercare@firstfiddle.in</strong></a>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+	</div>
+</section>
+<!--------Costomer contact section end------------------------------------->
+
+<!---------------privacy policy section start----------------------------->
+<section>
+	<div class="container-fluid licwidth" style="background-color: #000;padding-top: 30px;padding-bottom:30px;">
+		<div class="row" style="display: block;">
+			<div class="text-center">
+				<p class="copyright-text" style="font-size: 13px; color: white; margin-top: 0px; margin-bottom:0rem;">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG</p>
+				<p class="copyright-text" style="font-size: 13px; color: white; margin-top: 0px; margin-bottom:0rem;">COPYRIGHT © 2019 FIRST FIDDLE F&B PRIVATE LIMITED</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!---------------------privacy policy section end---------------------------->
+</body>
+</html>

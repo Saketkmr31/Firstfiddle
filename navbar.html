@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+    	.a{
+		background-color: #0000009c;
+	       }
+
+
+	       .mobilelogo{
+	       	display: none;
+	       }
+
+	       @media(max-width: 400px;){
+	       	 .mobilelogo{
+	       	display: block;
+	          }
+	          .devlogo{
+	          	display: none;
+	          }
+	          .a{
+		       background-color: yellow;
+	           }
+	           .navbar-dark .navbar-nav .nav-link{
+	           	color: black;
+	           }
+	       }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top a"><!----------nav start---------------->
+	<div class="container">
+		  <a href="" class="navbar-brand">
+            <img class="mob-logo" src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="devlogo" style="width: 65px;">
+            <img src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png" class="mobilelogo">
+
+          </a>  
+
+
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+
+            <span class="navbar-toggler-icon"></span>
+   
+        </button>
+
+        <div class="collapse navbar-collapse" id="a">
+		  <ul class="navbar-nav ml-auto" >
+			<li class="nav-item">
+				<a href="" class="nav-link">HOME</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">ABOUT</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">BRANDS</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">OUR TEAM</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">PRESS RELEASE</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">CONTACT</a></li>
+			<li class="nav-item">
+				<a href="" class="nav-link">CAREERS</a></li>
+			
+		  </ul> 
+        </div>
+	</div>
+		 
+</nav>
+	<!---Navbar End-------------------->
+	<!----image start------------------->
+	<img src="image/navbar.jpg" style="width: 100%">
+	<!-----image end------------------->
+
+</body>
+</html>
